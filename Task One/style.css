@@ -4,7 +4,7 @@
     font-family: sans-serif;
     margin: 0px;
     background-color: rgba(236, 221, 4, 0.952);
-    background-image: url(C:\Users\hp\Github_Class\Task One\images.html\Lonely-walk.jpeg);
+    /* background-image: url(C:\Users\hp\Github_Class\Task One\images.html\Lonely-walk.jpeg); */
     }
 
 
@@ -37,7 +37,7 @@
 
     .login-button {
             /* background-color: #007bff; */
-            color: hsl(0, 5%, 4%);
+            color: hwb(0 10% 23%);
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
@@ -50,7 +50,7 @@
             display: flex;
         }
 
-        .social-icons a {
+        .social-icons {
             text-decoration: none;
             color: #fff;
             font-size: 40px;
@@ -66,27 +66,108 @@
 
 
         .box1 {
-            width: 400px;
-            height: 500px;
+            width: 750px;
+            height: 450px;
             background-image: url("asset/my-image4.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            margin-top: 25px;
-            margin-bottom: 20px;
-            margin-left: 10px;
-        }
-
-        .box2 {
-            width: 400px;
-            height: 250px;
-            background-image: url("asset/guitar2.jpeg");
+            position: fixed;
+            font-family: 'Segoe UI';
+            font-size: 25px;
+            color: red;
+            font-weight: bolder; margin-top: 5px;
+            align-items: flex-end;
+            margin-top: 70px;
+            margin-bottom: 0%;
+            margin-left: 200px;
+        } 
+        
+        .box1a {
+            width: 190px;
+            height: 450px;
+            background-image: url("asset/guitar4.jpeg");
             background-repeat: no-repeat;
+            display: flex;
             background-size: cover;
-            margin-top: 25px;
+            background-color: #5887e0;
+            position: fixed;
+            font-family: Tahoma;
+            font-size: 16px;
+            line-height: 2;
+            text-align: center;
+            color: white;
+            font-weight: bolder; margin-top: 5px;
+            align-items: self-start;
+            margin-top: 70px;
+            margin-bottom: 0%;
             margin-left: 10px;
+        } 
+        
+        .box2 {
+            width: 450px;
+            height: 456px;
+            /* background-image: url("asset/guitar2.jpeg"); */
+            background-color: white;
+            background-repeat: no-repeat;
+            position: fixed;
+            background-size: cover;
+            justify-content: space-between;
+            margin-top: 25px;
+            margin-left: 950px;
+            font-family: Geneva;
+            font-size: large;
+            font-weight: bold;
+            margin-right: 50px;
+            margin-top: 68px;
+        } 
+
+        .small-flex1 {
+            display: flex;
+            /* flex: 1; */
+            background-color: lightgray;
+            background-image: url(asset/my-image2.jpg);
+            background-size: cover;
+            padding: 10px;
+            width: 190px;
+            height: 110px;
+            margin-left: 10px;
+            text-align: right;
+            margin-right: 20px;
         }
 
-        .box2a {
+        .text-container {
+            display: flex;
+            align-items: self-end;
+        }
+        .small-flex2 {
+            display: flex;
+            /* flex: 1; */
+            background-color: rgb(133, 9, 9);
+            background-image: url(asset/my-image3.jpg);
+            background-size: cover;
+            padding: 10px;
+            width: 190px;
+            height: 110px;
+            margin-left: 10px;
+            text-align: right;
+        }
+
+        .small-flex3 {
+            display: flex;
+            /* flex: 1; */
+            background-color: rgb(180, 171, 41);
+            background-image: url(asset/my-image.jpg);
+            background-size: cover;
+            padding: 10px;
+            width: 190px;
+            height: 110px;
+            margin-left: 10px;
+            text-align: right;
+        }
+
+
+
+        /*.box2a {
             width: 400px;
             height: 250px;
             background-image: url("asset/guitar4.jpeg");
@@ -95,27 +176,29 @@
             margin-top: 2px;
             margin-left: 1px;
             margin-bottom: 800px;
-        }
+        }*/
 
-        .box3 {
+        /* .box3 {
             width: 400px;
             height: 250px;
+            display: flex;
             background-color: #bd2fff;
+            background-image: url(asset/my-image4.jpg);
             margin-top: 0px;
             margin-left: 420px;
             margin-bottom: 200px;
             flex-direction: column;
-        }
+        } */
 
-        .box3a {
+        /*.box3a {
             width: 400px;
             height: 250px;
             background-color: brown;
-            background-image: url("Lonely-walk.jpeg");
+            background-image: url("asset/Lonely-walk.jpeg");
             margin-left: 422px;
             flex-direction: row;
         
-        }
+        }*/
 
 
 

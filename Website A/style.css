@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    /*background-image: url(Lonely-walk.jpeg);*/
+    background-color: hsl(34, 98%, 50%);
+    margin: 0%;
+}
+
+.header.div {
+    width: 100%;
+    height: 80px;
+    background-image: url(my-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-niche {
+    width: 90%;
+    height: auto;
+    font-size: small;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+.a {
+    color: white;
+}
+
